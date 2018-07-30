@@ -4,6 +4,8 @@ This utility is an add on to Keras to perform model 'surgery'. The utility provi
 
 The current version is tested with Tensorflow. 
 
-It is recommended to copy the model h5 file before performing model surgery using the following commands:
+It is recommended to copy the model h5 file before performing model surgery using the following command:
 
 h5repack -i <model_h5_file> -o <new_model_h5_file>
+
+and run the provided functions on the new h5 file generated

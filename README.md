@@ -9,3 +9,11 @@ It is recommended to copy the model h5 file before performing model surgery usin
 h5repack -i <model_h5_file> -o <new_model_h5_file>
 
 and run the provided functions on the new h5 file generated
+
+# Reduction_utils
+
+reduction_utils.py can be used to prune or modify the model architecture. The flexibility of changing kernel matrices, not just removing them enables advanced pruning methods like cosine similarity based pruning (included in reduction_utils.py), correlation coffecient based pruning and just average percentage of zeros pruning methods. 
+
+# Documentation
+
+The docstrings is the documentation that is provided with the software. Questions/suggestions welcome.

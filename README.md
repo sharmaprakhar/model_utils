@@ -1,6 +1,6 @@
 # model_utils
 
-This utility is an add to Keras to perform model 'surgery'. The utility provides functions to modify the model json and saved model h5 definition to restructure and rearrange the model architecture kernels, WITHOUT retraining. 
+This utility is an add on to Keras to perform model 'surgery'. The utility provides functions to modify the model json and saved model h5 definition to restructure and rearrange the model architecture kernels, WITHOUT retraining. 
 
 The current version is tested with Tensorflow. 
 
